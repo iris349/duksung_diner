@@ -110,11 +110,12 @@ table td {
   background-color: #f9f9f9;
 }
 
-/* 테이블 hover 효과 */
-table tr:hover {
-  background-color: #f1c40f; /* 배경 색상 변경 */
-  cursor: pointer; /* 마우스 포인터 효과 */
+table tbody tr:hover td {
+  background-color: #bfe0df !important;
+  cursor: pointer;
+  color: white;
 }
+
 
 /* iframe 중앙 정렬 */
 iframe {

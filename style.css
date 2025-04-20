@@ -119,3 +119,10 @@ body {
   a:hover {
     color: #e74c3c; /* 링크 hover 색상 */
   }
+  /* 테이블 hover 효과 */
+  table tbody tr:hover td {
+    background-color: #bfe0df !important;
+    cursor: pointer;
+    color: white;
+  }
+  
