@@ -67,6 +67,8 @@ body {
   }
   
   ol {
+    width : fit-content;
+    margin : auto;
     padding-left: 20px;
   }
   
